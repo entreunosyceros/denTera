@@ -1,8 +1,8 @@
 <?php
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'dentista');
-define('DB_USER', 'root');
-define('DB_PASS', '36159152');
+define('DB_NAME', 'NOMBREBD');
+define('DB_USER', 'USUARIOSQL');
+define('DB_PASS', 'TUCONTRASEÑASQL');
 define('DB_CHARSET', 'utf8mb4');
 
 /**
