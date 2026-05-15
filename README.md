@@ -1,6 +1,8 @@
 # DenTera — Gestión de Citas Dentales
 
-Aplicación web para la gestión de citas de una clínica dental, con base de datos MySQL.
+<img width="768" height="419" alt="logo" src="https://github.com/user-attachments/assets/ad1e0c7d-398b-4efd-86ae-086e6e28cc48" />
+
+Aplicación web para la gestión de citas de una clínica dental, con base de datos MySQL para no olvidarme del PHP.
 
 ## Requisitos
 
@@ -41,6 +43,8 @@ Si ya tenías DenTera instalado y solo quieres alinear el esquema (nuevas column
 
 ## Credenciales por defecto
 
+<img width="532" height="604" alt="login" src="https://github.com/user-attachments/assets/ee6840c3-6926-4c01-a40a-aad7e85b498f" />
+
 | Usuario | Contraseña | Rol |
 |---------|------------|-----|
 | `admin` | `admin123` | Administrador |
@@ -49,6 +53,8 @@ Si ya tenías DenTera instalado y solo quieres alinear el esquema (nuevas column
 Si importaste un `schema.sql` muy antiguo y no puedes entrar, ejecuta `mysql ... < schema_fix_passwords_demo.sql` para alinear los hashes con estas contraseñas.
 
 ## Estructura de archivos (principal)
+
+<img width="1428" height="931" alt="dentera-panel-inicio" src="https://github.com/user-attachments/assets/bb68a929-43f8-4383-b7dc-2059b83db6e6" />
 
 | Archivo / carpeta | Descripción |
 |-------------------|-------------|
