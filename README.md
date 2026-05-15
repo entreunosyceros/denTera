@@ -68,12 +68,11 @@ Si importaste un `schema.sql` muy antiguo y no puedes entrar, ejecuta `mysql ...
 | `paciente.php` | Historial del paciente, notas clínicas, nueva cita / duplicar |
 | `presupuesto.php`, `factura.php` | Presupuestos y facturas (citas completadas) |
 | `doctores.php`, `tratamientos.php` | Equipo y catálogo de tratamientos |
-| `configuracion.php` | Datos de la clínica y auditoría |
+| `configuracion.php` | Datos de la clínica y auditoría. Configurar aquí los datos de la conexión a la base de datos |
 | `api_tabla_citas.php`, `api_reordenar_citas.php` | API interna para agenda (tabla en vivo y orden por arrastre) |
 | `js/agenda-live.js`, `js/citas-sortable.js`, `js/Sortable.min.js` | Scripts de la agenda |
 | `inc/` | Fragmentos PHP reutilizados (filtros de citas, tabla, cabecera, pie) |
-| `schema.sql` | Esquema completo + datos demo + **actualización idempotente al final** |
-| `schema_fix_passwords_demo.sql` | Repara contraseñas demo si el hash no coincide |
+| `schema.sql` | Esquema completo + datos demo |
 | `estilos.css`, `img/logo.png` | Interfaz y logo |
 
 ## Funcionalidades
